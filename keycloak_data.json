@@ -1,0 +1,196 @@
+{
+  "users": [
+    {
+      "id": "7d11580c-b0b4-48c4-967c-4f10b17119dd",
+      "createdTimestamp": 1713675558141,
+      "username": "a",
+      "enabled": true,
+      "totp": false,
+      "emailVerified": false,
+      "firstName": "A",
+      "lastName": "HoangVan",
+      "email": "a@tim.com",
+      "disableableCredentialTypes": [],
+      "requiredActions": [],
+      "notBefore": 0,
+      "access": {
+        "manageGroupMembership": true,
+        "view": true,
+        "mapRoles": true,
+        "impersonate": true,
+        "manage": true
+      }
+    },
+    {
+      "id": "7b70f542-375b-4c9e-91d2-07efaa4b17bd",
+      "createdTimestamp": 1713675558141,
+      "username": "a-mak",
+      "enabled": true,
+      "totp": false,
+      "emailVerified": false,
+      "firstName": "A",
+      "lastName": "HoangVan",
+      "email": "a-mak@tim.com",
+      "disableableCredentialTypes": [],
+      "requiredActions": [],
+      "notBefore": 0,
+      "access": {
+        "manageGroupMembership": true,
+        "view": true,
+        "mapRoles": true,
+        "impersonate": true,
+        "manage": true
+      }
+    },
+    {
+      "id": "b693b1ec-7385-4110-8fa8-dbaab757af5d",
+      "createdTimestamp": 1713675576122,
+      "username": "b",
+      "enabled": true,
+      "totp": false,
+      "emailVerified": false,
+      "firstName": "B",
+      "lastName": "HoangVan",
+      "email": "b@tim.com",
+      "disableableCredentialTypes": [],
+      "requiredActions": [],
+      "notBefore": 0,
+      "access": {
+        "manageGroupMembership": true,
+        "view": true,
+        "mapRoles": true,
+        "impersonate": true,
+        "manage": true
+      }
+    },
+    {
+      "id": "f7ebac9a-1d49-42af-b369-40038134a86b",
+      "createdTimestamp": 1713675576122,
+      "username": "b-mak",
+      "enabled": true,
+      "totp": false,
+      "emailVerified": false,
+      "firstName": "B",
+      "lastName": "HoangVan",
+      "email": "b-mak@tim.com",
+      "disableableCredentialTypes": [],
+      "requiredActions": [],
+      "notBefore": 0,
+      "access": {
+        "manageGroupMembership": true,
+        "view": true,
+        "mapRoles": true,
+        "impersonate": true,
+        "manage": true
+      }
+    },
+    {
+      "id": "9e8ec0e4-8c89-41fa-8a49-d24ee3ae27ee",
+      "createdTimestamp": 1713675591222,
+      "username": "c",
+      "enabled": true,
+      "totp": false,
+      "emailVerified": false,
+      "firstName": "C",
+      "lastName": "HoangVan",
+      "email": "c@tim.com",
+      "disableableCredentialTypes": [],
+      "requiredActions": [],
+      "notBefore": 0,
+      "access": {
+        "manageGroupMembership": true,
+        "view": true,
+        "mapRoles": true,
+        "impersonate": true,
+        "manage": true
+      }
+    },
+    {
+      "id": "1f7a1ea4-2f89-488d-aaa2-b1c888acf35f",
+      "createdTimestamp": 1713675591222,
+      "username": "c-mak",
+      "enabled": true,
+      "totp": false,
+      "emailVerified": false,
+      "firstName": "C",
+      "lastName": "HoangVan",
+      "email": "c-mak@tim.com",
+      "disableableCredentialTypes": [],
+      "requiredActions": [],
+      "notBefore": 0,
+      "access": {
+        "manageGroupMembership": true,
+        "view": true,
+        "mapRoles": true,
+        "impersonate": true,
+        "manage": true
+      }
+    },
+    {
+      "id": "9dc07725-0d48-42bf-b940-0eaf2dbf2057",
+      "createdTimestamp": 1713456464374,
+      "username": "dev2024",
+      "enabled": true,
+      "totp": false,
+      "emailVerified": false,
+      "disableableCredentialTypes": [],
+      "requiredActions": [],
+      "notBefore": 0,
+      "access": {
+        "manageGroupMembership": true,
+        "view": true,
+        "mapRoles": true,
+        "impersonate": true,
+        "manage": true
+      }
+    },
+    {
+      "id": "9984855f-a55d-4497-a203-12027ca949f0",
+      "createdTimestamp": 1713456464374,
+      "username": "dev2024-mak",
+      "enabled": true,
+      "totp": false,
+      "emailVerified": false,
+      "disableableCredentialTypes": [],
+      "requiredActions": [],
+      "notBefore": 0,
+      "access": {
+        "manageGroupMembership": true,
+        "view": true,
+        "mapRoles": true,
+        "impersonate": true,
+        "manage": true
+      }
+    }
+  ],
+  "groups": [
+    {
+      "id": "791a82ad-406e-497b-b14f-e45004b81ef5",
+      "name": "admin",
+      "path": "/admin",
+      "subGroupCount": 0,
+      "subGroups": [],
+      "access": {
+        "view": true,
+        "viewMembers": true,
+        "manageMembers": true,
+        "manage": true,
+        "manageMembership": true
+      }
+    },
+    {
+      "id": "caa2e9f9-a09a-4e28-bb22-63e8cb1be0a1",
+      "name": "test",
+      "path": "/test",
+      "subGroupCount": 0,
+      "subGroups": [],
+      "access": {
+        "view": true,
+        "viewMembers": true,
+        "manageMembers": true,
+        "manage": true,
+        "manageMembership": true
+      }
+    }
+  ]
+}
